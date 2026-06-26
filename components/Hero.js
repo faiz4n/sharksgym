@@ -17,7 +17,7 @@ export default function Hero() {
           A clean, focused environment built for real results.
         </p>
         <div className="sg-hero-actions">
-          <a href="#contact" className="sg-btn-primary" style={{ textDecoration: 'none' }}>Start Training ›</a>
+          <a href="#plans" className="sg-btn-primary" style={{ textDecoration: 'none' }}>Start Training ›</a>
           <a href="#services" className="sg-btn-outline" style={{ textDecoration: 'none' }}>Explore Services</a>
         </div>
       </div>
