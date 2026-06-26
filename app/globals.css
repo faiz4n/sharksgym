@@ -401,11 +401,16 @@ body {
 .sg-carousel {
   position: relative;
   width: 100%;
-  max-width: 65%;
+  max-width: 100%;
   margin: 0 auto;
   aspect-ratio: 2/3;
   overflow: hidden;
   background: var(--dark3);
+}
+@media (min-width: 1025px) {
+  .sg-carousel {
+    max-width: 65%;
+  }
 }
 .sg-carousel-track {
   position: relative;
