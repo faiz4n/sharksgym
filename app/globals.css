@@ -216,6 +216,9 @@ body {
   border: 1px solid rgba(255,255,255,0.3);
   cursor: pointer;
   transition: border-color 0.2s, color 0.2s, transform 0.15s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 .sg-btn-outline:hover { border-color: #fff; transform: translateY(-2px); }
 .sg-hero-stats {
