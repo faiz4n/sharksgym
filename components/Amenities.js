@@ -24,7 +24,7 @@ const amenities = [
 
 export default function Amenities() {
   return (
-    <section className="sg-amenities-section">
+    <section className="sg-amenities-section" id="amenities">
       <div className="sg-section-label reveal">More Perks</div>
       <h2 className="sg-section-heading reveal">Amenities</h2>
       <div className="sg-amenities-grid">

@@ -52,7 +52,7 @@ export default function Reviews() {
   const next = () => setCurrent((c) => (c + 1) % total);
 
   return (
-    <section className="sg-reviews-section">
+    <section className="sg-reviews-section" id="reviews">
       <div className="sg-section-label reveal">Happy Members</div>
       <h2 className="sg-section-heading reveal">What People Say</h2>
 

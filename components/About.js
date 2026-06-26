@@ -2,7 +2,7 @@ import AboutCarousel from './AboutCarousel';
 
 export default function About() {
   return (
-    <section className="sg-section">
+    <section className="sg-section" id="about">
       <div className="sg-about-grid">
         <div className="sg-about-text reveal">
           <div className="sg-section-label">About Sharks Gym</div>
