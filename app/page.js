@@ -6,6 +6,7 @@ import Marquee from '@/components/Marquee';
 import About from '@/components/About';
 import Services from '@/components/Services';
 import Amenities from '@/components/Amenities';
+import Pricing from '@/components/Pricing';
 import Reviews from '@/components/Reviews';
 import HoursContact from '@/components/HoursContact';
 import Footer from '@/components/Footer';
@@ -23,6 +24,7 @@ export default function Home() {
       <About />
       <Services />
       <Amenities />
+      <Pricing />
       <Reviews />
       <HoursContact />
       <Footer />
